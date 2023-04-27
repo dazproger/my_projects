@@ -1,0 +1,16 @@
+add_executable(
+    image_processor
+    image_processor.cpp
+    parser.cpp
+    controller.cpp
+    reader.cpp
+    writer.cpp
+    filter_with_matrix.cpp
+    crop.cpp
+    converter.cpp
+    image.cpp
+    grayscale.cpp
+    negative.cpp
+    sharpening.cpp
+    edge_detection.cpp
+)
